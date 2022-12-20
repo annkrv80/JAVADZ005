@@ -4,14 +4,14 @@ public class Task033 {
 
     public static void main(String[] args) {
         Roman roman = new Roman();
-        System.out.print(roman.romanToInt("MMXXII"));
+        System.out.print(roman.romanToArabic("MMIXIV"));
     }
 
 }
 
 class Roman {
 
-    public int romanToInt(String s) {
+    public int romanToArabic(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
