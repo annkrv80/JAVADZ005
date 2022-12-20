@@ -4,7 +4,7 @@ public class Task033 {
 
     public static void main(String[] args) {
         Roman roman = new Roman();
-        System.out.print(roman.romanToInt("IX"));
+        System.out.print(roman.romanToInt("MMXXII"));
     }
 
 }
